@@ -17,7 +17,9 @@ export const AddTodo = () => {
       <span>
         <input value={todo} onChange={onInputChange} />
       </span>
-      <button onClick={onSubmit}>Add Todo</button>
+      <button type="button" onClick={onSubmit}>
+        Add Todo
+      </button>
     </div>
   )
 }
